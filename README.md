@@ -1,1 +1,2 @@
-Unit1.pas jest głuwnym plikiem programu
+Głuwny plik z kodem programu 
+Cigla_Projekt/Unit1.pas 
