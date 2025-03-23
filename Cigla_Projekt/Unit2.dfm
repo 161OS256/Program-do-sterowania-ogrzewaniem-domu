@@ -1,0 +1,785 @@
+object Form2: TForm2
+  Left = 7
+  Top = 122
+  Width = 1012
+  Height = 587
+  Caption = 'Ustawienia'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -21
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 25
+  object Button1: TButton
+    Left = 416
+    Top = 448
+    Width = 145
+    Height = 57
+    Caption = 'Zapisz Zmiany'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object GroupBox1: TGroupBox
+    Left = 360
+    Top = 0
+    Width = 281
+    Height = 385
+    Caption = 'Control'
+    TabOrder = 1
+    object Label10: TLabel
+      Left = 8
+      Top = 56
+      Width = 184
+      Height = 25
+      Caption = '1 Sterownik Pod'#322'oga '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 8
+      Top = 88
+      Width = 173
+      Height = 25
+      Caption = '2 Kontrolka Zbiornik'
+    end
+    object Label12: TLabel
+      Left = 8
+      Top = 120
+      Width = 169
+      Height = 25
+      Caption = '3 Zaw'#243'r Trujnikowy'
+    end
+    object Label19: TLabel
+      Left = 8
+      Top = 152
+      Width = 184
+      Height = 25
+      Caption = '4 Sterownik Kominek'
+    end
+    object Label13: TLabel
+      Left = 5
+      Top = 184
+      Width = 44
+      Height = 25
+      Caption = '1 + 2'
+    end
+    object Label14: TLabel
+      Left = 5
+      Top = 216
+      Width = 44
+      Height = 25
+      Caption = '1 + 3'
+    end
+    object Label15: TLabel
+      Left = 5
+      Top = 280
+      Width = 44
+      Height = 25
+      Caption = '2 + 3'
+    end
+    object Label16: TLabel
+      Left = 124
+      Top = 184
+      Width = 77
+      Height = 25
+      Caption = '1 + 2 + 3'
+    end
+    object Label9: TLabel
+      Left = 8
+      Top = 24
+      Width = 142
+      Height = 25
+      Caption = '0 Stan Rozwarty'
+    end
+    object Label24: TLabel
+      Left = 5
+      Top = 248
+      Width = 44
+      Height = 25
+      Caption = '1 + 4'
+    end
+    object Label25: TLabel
+      Left = 5
+      Top = 312
+      Width = 44
+      Height = 25
+      Caption = '2 + 4'
+    end
+    object Label26: TLabel
+      Left = 124
+      Top = 216
+      Width = 77
+      Height = 25
+      Caption = '2 + 3 + 4'
+    end
+    object Label27: TLabel
+      Left = 124
+      Top = 248
+      Width = 77
+      Height = 25
+      Caption = '1 + 2 + 4'
+    end
+    object Label28: TLabel
+      Left = 124
+      Top = 280
+      Width = 77
+      Height = 25
+      Caption = '1 + 3 + 4'
+    end
+    object Label29: TLabel
+      Left = 120
+      Top = 312
+      Width = 80
+      Height = 25
+      Caption = '1+2+3+4'
+    end
+    object Label30: TLabel
+      Left = 5
+      Top = 344
+      Width = 44
+      Height = 25
+      Caption = '3 + 4'
+    end
+    object Edit12: TEdit
+      Left = 208
+      Top = 24
+      Width = 57
+      Height = 33
+      TabOrder = 0
+      Text = '0'
+    end
+    object Edit4: TEdit
+      Left = 208
+      Top = 56
+      Width = 57
+      Height = 33
+      TabOrder = 1
+      Text = '0'
+    end
+    object Edit5: TEdit
+      Left = 208
+      Top = 88
+      Width = 57
+      Height = 33
+      TabOrder = 2
+      Text = '0'
+    end
+    object Edit6: TEdit
+      Left = 208
+      Top = 120
+      Width = 57
+      Height = 33
+      TabOrder = 3
+      Text = '0'
+    end
+    object Edit7: TEdit
+      Left = 56
+      Top = 184
+      Width = 57
+      Height = 33
+      TabOrder = 4
+      Text = '0'
+    end
+    object Edit8: TEdit
+      Left = 56
+      Top = 216
+      Width = 57
+      Height = 33
+      TabOrder = 5
+      Text = '0'
+    end
+    object Edit9: TEdit
+      Left = 56
+      Top = 280
+      Width = 57
+      Height = 33
+      TabOrder = 6
+      Text = '0'
+    end
+    object Edit10: TEdit
+      Left = 208
+      Top = 184
+      Width = 57
+      Height = 33
+      TabOrder = 7
+      Text = '0'
+    end
+    object Button8: TButton
+      Left = 144
+      Top = 344
+      Width = 57
+      Height = 25
+      Caption = 'Test'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 8
+      OnClick = Button8Click
+    end
+    object Edit13: TEdit
+      Left = 208
+      Top = 344
+      Width = 57
+      Height = 33
+      TabOrder = 9
+      Text = 'Stan'
+    end
+    object Edit17: TEdit
+      Left = 208
+      Top = 152
+      Width = 57
+      Height = 33
+      TabOrder = 10
+      Text = '0'
+    end
+    object Edit18: TEdit
+      Left = 56
+      Top = 248
+      Width = 57
+      Height = 33
+      TabOrder = 11
+      Text = '0'
+    end
+    object Edit19: TEdit
+      Left = 56
+      Top = 312
+      Width = 57
+      Height = 33
+      TabOrder = 12
+      Text = '0'
+    end
+    object Edit20: TEdit
+      Left = 208
+      Top = 216
+      Width = 57
+      Height = 33
+      TabOrder = 13
+      Text = '0'
+    end
+    object Edit21: TEdit
+      Left = 208
+      Top = 248
+      Width = 57
+      Height = 33
+      TabOrder = 14
+      Text = '0'
+    end
+    object Edit22: TEdit
+      Left = 208
+      Top = 280
+      Width = 57
+      Height = 33
+      TabOrder = 15
+      Text = '0'
+    end
+    object Edit23: TEdit
+      Left = 208
+      Top = 312
+      Width = 57
+      Height = 33
+      TabOrder = 16
+      Text = '0'
+    end
+    object Edit24: TEdit
+      Left = 56
+      Top = 344
+      Width = 57
+      Height = 33
+      TabOrder = 17
+      Text = '0'
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 656
+    Top = 0
+    Width = 329
+    Height = 537
+    Caption = 'Rejestr'
+    TabOrder = 2
+    object Brak: TMemo
+      Left = 16
+      Top = 32
+      Width = 297
+      Height = 457
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ParentShowHint = False
+      ReadOnly = True
+      ShowHint = False
+      TabOrder = 0
+    end
+    object Button15: TButton
+      Left = 80
+      Top = 496
+      Width = 177
+      Height = 25
+      Caption = 'Wyczy'#347#263' Dziennik'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = Button15Click
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 8
+    Top = 0
+    Width = 337
+    Height = 385
+    Caption = 'Ogulne'
+    TabOrder = 3
+    object Label1: TLabel
+      Left = 8
+      Top = 32
+      Width = 113
+      Height = 25
+      Caption = 'Utrata Ciep'#322'a'
+    end
+    object Label5: TLabel
+      Left = 288
+      Top = 32
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 80
+      Width = 157
+      Height = 25
+      Caption = 'Histereza Pod'#322'ogi '
+      Layout = tlBottom
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 128
+      Width = 136
+      Height = 25
+      Caption = 'Aktualizacja co '
+    end
+    object Label17: TLabel
+      Left = 8
+      Top = 176
+      Width = 113
+      Height = 25
+      Caption = 'Start Pompa '
+    end
+    object Label6: TLabel
+      Left = 288
+      Top = 80
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Label4: TLabel
+      Left = 288
+      Top = 128
+      Width = 40
+      Height = 25
+      Caption = 'Sek.'
+    end
+    object Label18: TLabel
+      Left = 288
+      Top = 176
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Label7: TLabel
+      Left = 8
+      Top = 224
+      Width = 163
+      Height = 25
+      Caption = 'Nastawa Kominek '
+    end
+    object Label8: TLabel
+      Left = 288
+      Top = 224
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Label20: TLabel
+      Left = 8
+      Top = 272
+      Width = 164
+      Height = 25
+      Caption = 'Histereza Kominek'
+    end
+    object Label21: TLabel
+      Left = 288
+      Top = 280
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Label22: TLabel
+      Left = 8
+      Top = 320
+      Width = 148
+      Height = 25
+      Caption = 'Histereza Pompy'
+    end
+    object Label23: TLabel
+      Left = 288
+      Top = 328
+      Width = 23
+      Height = 25
+      Caption = #176'C'
+    end
+    object Edit1: TEdit
+      Left = 216
+      Top = 24
+      Width = 49
+      Height = 33
+      TabOrder = 0
+      Text = '0,0'
+    end
+    object Button4: TButton
+      Left = 264
+      Top = 24
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 1
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      Left = 264
+      Top = 40
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 2
+      OnClick = Button5Click
+    end
+    object Edit2: TEdit
+      Left = 216
+      Top = 72
+      Width = 49
+      Height = 33
+      TabOrder = 3
+      Text = '0,0'
+    end
+    object Edit3: TEdit
+      Left = 216
+      Top = 120
+      Width = 49
+      Height = 33
+      TabOrder = 4
+      Text = '0'
+    end
+    object Edit11: TEdit
+      Left = 216
+      Top = 168
+      Width = 49
+      Height = 33
+      TabOrder = 5
+      Text = '0'
+    end
+    object Button2: TButton
+      Left = 264
+      Top = 72
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 6
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 264
+      Top = 88
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 7
+      OnClick = Button3Click
+    end
+    object Button6: TButton
+      Left = 264
+      Top = 120
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 8
+      OnClick = Button6Click
+    end
+    object Button7: TButton
+      Left = 264
+      Top = 136
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 9
+      OnClick = Button7Click
+    end
+    object Button16: TButton
+      Left = 264
+      Top = 168
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 10
+      OnClick = Button16Click
+    end
+    object Button17: TButton
+      Left = 264
+      Top = 184
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 11
+      OnClick = Button17Click
+    end
+    object Edit14: TEdit
+      Left = 216
+      Top = 216
+      Width = 49
+      Height = 33
+      TabOrder = 12
+      Text = '0'
+    end
+    object Button18: TButton
+      Left = 264
+      Top = 216
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 13
+      OnClick = Button18Click
+    end
+    object Button19: TButton
+      Left = 264
+      Top = 232
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 14
+      OnClick = Button19Click
+    end
+    object Edit15: TEdit
+      Left = 216
+      Top = 272
+      Width = 49
+      Height = 33
+      TabOrder = 15
+      Text = '0'
+    end
+    object Button20: TButton
+      Left = 264
+      Top = 272
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 16
+      OnClick = Button20Click
+    end
+    object Button21: TButton
+      Left = 264
+      Top = 288
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 17
+      OnClick = Button21Click
+    end
+    object Edit16: TEdit
+      Left = 216
+      Top = 320
+      Width = 49
+      Height = 33
+      TabOrder = 18
+      Text = '0'
+    end
+    object Button22: TButton
+      Left = 264
+      Top = 320
+      Width = 17
+      Height = 17
+      Caption = '+'
+      TabOrder = 19
+      OnClick = Button22Click
+    end
+    object Button23: TButton
+      Left = 264
+      Top = 336
+      Width = 17
+      Height = 17
+      Caption = '-'
+      TabOrder = 20
+      OnClick = Button23Click
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 8
+    Top = 384
+    Width = 337
+    Height = 153
+    Caption = 'Sterowniki'
+    TabOrder = 4
+    object Button9: TButton
+      Left = 8
+      Top = 32
+      Width = 131
+      Height = 25
+      Caption = '<< Pod'#322'oga Gura'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = Button9Click
+    end
+    object Button10: TButton
+      Left = 192
+      Top = 32
+      Width = 129
+      Height = 25
+      Caption = 'Pod'#322'oga Du'#322' >>'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = Button10Click
+    end
+    object Button11: TButton
+      Left = 8
+      Top = 72
+      Width = 129
+      Height = 25
+      Caption = '<<Dolot. Zamykanie '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = Button11Click
+    end
+    object Button12: TButton
+      Left = 192
+      Top = 72
+      Width = 129
+      Height = 25
+      Caption = 'Dolot Otwieranie >>'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = Button12Click
+    end
+    object Button13: TButton
+      Left = 8
+      Top = 112
+      Width = 129
+      Height = 25
+      Caption = '<< Tr'#243'jnik Kominek'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+      OnClick = Button13Click
+    end
+    object Button14: TButton
+      Left = 192
+      Top = 112
+      Width = 129
+      Height = 25
+      Caption = 'Tr'#243'jnik Piec >>'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+      OnClick = Button14Click
+    end
+    object CheckBox1: TCheckBox
+      Left = 144
+      Top = 32
+      Width = 49
+      Height = 25
+      Caption = 'ON'
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 6
+      OnClick = CheckBox1Click
+    end
+    object CheckBox2: TCheckBox
+      Left = 144
+      Top = 72
+      Width = 49
+      Height = 25
+      Caption = 'ON'
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 7
+      OnClick = CheckBox2Click
+    end
+    object CheckBox3: TCheckBox
+      Left = 144
+      Top = 112
+      Width = 49
+      Height = 25
+      Caption = 'ON'
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 8
+      OnClick = CheckBox3Click
+    end
+  end
+end
