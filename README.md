@@ -1,2 +1,2 @@
-Głuwny plik z kodem programu 
+Główny plik z kodem programu 
 Cigla_Projekt/Unit1.pas 
